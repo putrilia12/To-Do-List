@@ -24,7 +24,7 @@ An interactive To-Do List built with **HTML, CSS, and JavaScript**, developed du
 1. Download or clone the repository.
 2. Open the folder.
 3. Double-click `index.html` to open the app in your web browser.
-4. Type a task in the input field and optionally set a deadline.
+4. Type a task in the input field and set a deadline.
 5. Press **Enter** or click **Add** to add the task.
 6. Use the buttons next to each task to **edit**, **delete**, or **mark as complete**.
 7. Tasks will automatically show their **status**: Pending, Overdue, or Done.
