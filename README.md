@@ -6,6 +6,14 @@ An interactive To-Do List built with **HTML, CSS, and JavaScript**, developed du
 
 ✨ **Fun Feature**: When a task is marked as complete, a confetti effect appears to celebrate your progress!
 
+## Demo
+
+Try the app online: [Interactive To-Do List Demo](https://putrilia12.github.io/To-Do-List/)
+
+## Portfolio / LinkedIn
+
+Check out my professional profile: [Putri Aurelia on LinkedIn](https://www.linkedin.com/in/putri-aurelia-728abb342/)
+
 ## Features
 
 - **Add Tasks**: Add new tasks to your list with optional deadlines.
@@ -24,7 +32,7 @@ An interactive To-Do List built with **HTML, CSS, and JavaScript**, developed du
 1. Download or clone the repository.
 2. Open the folder.
 3. Double-click `index.html` to open the app in your web browser.
-4. Type a task in the input field and set a deadline.
+4. Type a task in the input field and optionally set a deadline.
 5. Press **Enter** or click **Add** to add the task.
 6. Use the buttons next to each task to **edit**, **delete**, or **mark as complete**.
 7. Tasks will automatically show their **status**: Pending, Overdue, or Done.
