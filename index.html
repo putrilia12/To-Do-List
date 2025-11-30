@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-do List</title>
+  <!-- Gunakan lowercase untuk path agar konsisten -->
+  <link rel="stylesheet" href="CSS/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+  <!-- Typing Title -->
+  <h1 class="typing-title" id="typing-title"></h1>
+
+  <!-- Stats Container -->
+  <section class="stats-container">
+    <div class="stat-card">
+      <h3>Total Tasks</h3>
+      <p id="totalTasks">0</p>
+    </div>
+    
+    <div class="stat-card">
+      <h3>Completed</h3>
+      <p id="completedTasks">0</p>
+    </div>
+    
+    <div class="stat-card">
+      <h3>Pending</h3>
+      <p id="pendingTasks">0</p>
+    </div>
+
+    <div class="stat-card">
+      <h3>Overdue</h3>
+      <p id="overdueCount">0</p>
+    </div>
+  </section>
+
+<!-- Progress Bar -->
+<section class="progress-container">
+  <div class="progress-wrapper">
+    <div id="progressBar"></div>
+  </div>
+  <p id="progressText">0%</p>
+</section>
+  
+  <!-- Todo Container -->
+  <main class="container">
+    
+    <!-- Form Input -->
+    <div class="todo-form">
+      <input type="text" id="taskInput" placeholder="Add a to do...">
+      <input type="date" id="dateInput">
+      <button id="addBtn" type="button">+</button>
+    </div>
+
+    <!-- Actions -->
+    <div class="actions">
+
+  <!-- Search Bar -->
+  <input type="text" id="searchInput" placeholder="Search task...">
+  
+    <!-- Filter Button -->
+    <button id="filterBtn" type="button">Filter</button>
+    <!-- Hidden Filter Options -->
+     <div id="filterOptions" style="display: none;">
+      <button class="filterOption" data-filter="all">All</button>
+      <button class="filterOption" data-filter="complete">Complete</button>
+      <button class="filterOption" data-filter="uncomplete">Uncomplete</button>
+    </div>
+    
+    <button id="deleteAllBtn" type="button">Delete All</button>
+    </div>
+
+    <!-- Task Table -->
+    <table>
+      <thead>
+        <tr>
+          <th>Task</th>
+          <th>Due Date</th>
+          <th>Status</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="taskList">
+        <tr>
+          <td colspan="4" class="no-task">No task found</td>
+        </tr>
+      </tbody>
+    </table>
+    
+  </main>
+
+<!-- Created by -->
+<p class="creator">Created by Putri Aurelia</p>
+  
+<!-- Script -->
+  <script src="js/script.js"></script>
+</body>
+</html>
