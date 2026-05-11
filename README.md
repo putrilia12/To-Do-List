@@ -6,6 +6,17 @@ An interactive To-Do List built with **HTML, CSS, and JavaScript**, developed du
 
 ✨ **Fun Feature**: When a task is marked as complete, a confetti effect appears to celebrate your progress!
 
+## 📸 Preview
+
+### 1. Initial Interface (First Launch)
+![Initial](docs/1.png)
+
+### 2. Task Interaction
+![Task](docs/2.png)
+
+### 3. Completion Feedback (Confetti Effect)
+![Confetti](docs/3.png)
+
 ## Demo
 
 Try the app online: [Interactive To-Do List Demo](https://putrilia12.github.io/To-Do-List/)
