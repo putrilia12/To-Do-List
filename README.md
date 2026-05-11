@@ -1,57 +1,84 @@
-# Interactive To-Do List
+# ✨ Interactive To-Do List
 
-**Created by Putri Aurelia**
+![Preview](docs/1.png)
 
-An interactive To-Do List built with **HTML, CSS, and JavaScript**, developed during **RevoU’s Intro to Software Engineering course**. This project demonstrates front-end development skills by allowing users to manage tasks efficiently through an intuitive interface.  
+🚀 An interactive To-Do List built with **HTML, CSS, and JavaScript**, developed during **RevoU’s Intro to Software Engineering course**.  
 
-✨ **Fun Feature**: When a task is marked as complete, a confetti effect appears to celebrate your progress!
+Manage your daily tasks efficiently with a clean interface and real-time interactions.
+
+🎉 **Fun Feature**: Complete a task and enjoy a satisfying **confetti celebration!**
+
+---
+
+## 🌐 Live Demo
+
+👉 **Try it now:**  
+🔗 https://putrilia12.github.io/To-Do-List/
+
+---
+
+## 🎯 Features
+
+- ➕ **Add Tasks** with optional deadlines  
+- ✏️ **Edit Tasks** anytime  
+- 🗑️ **Delete Tasks** easily  
+- ✅ **Mark as Complete** (with confetti 🎉)  
+- 🔍 **Search Tasks** instantly  
+- 📊 **Task Status Tracking**:
+  - 🟢 **Pending**
+  - 🔴 **Overdue**
+  - ✅ **Done**
+- 📱 **Responsive Design** (Desktop & Mobile)
+
+---
+
+## 🎮 How It Works
+
+1. Type your task  
+2. Set a deadline (optional)  
+3. Click **Add** or press **Enter**  
+4. Manage tasks with:
+   - ✏️ Edit  
+   - 🗑️ Delete  
+   - ✅ Complete  
+5. Watch the **confetti 🎉** when you finish a task!
+
+---
 
 ## 📸 Preview
 
-### 1. Initial Interface (First Launch)
+### 🏠 Initial Interface
 ![Initial](docs/1.png)
 
-### 2. Task Interaction
+### ✍️ Task Interaction
 ![Task](docs/2.png)
 
-### 3. Completion Feedback (Confetti Effect)
+### 🎉 Confetti Celebration
 ![Confetti](docs/3.png)
 
-## Demo
+---
 
-Try the app online: [Interactive To-Do List Demo](https://putrilia12.github.io/To-Do-List/)
+## ⚙️ Technologies Used
 
-## Portfolio / LinkedIn
+- HTML5  
+- CSS3  
+- JavaScript (ES6)  
 
-Check out my professional profile: [Putri Aurelia on LinkedIn](https://www.linkedin.com/in/putri-aurelia-728abb342/)
+---
 
-## Features
+## 💡 Why This Project?
 
-- **Add Tasks**: Add new tasks to your list with optional deadlines.
-- **Delete Tasks**: Remove tasks that are no longer needed.
-- **Edit Tasks**: Modify existing tasks when needed.
-- **Mark as Complete (Done)**: Track your progress; completing a task triggers a confetti celebration.
-- **Task Status**:
-  - **Pending**: Task deadline has not passed.
-  - **Overdue**: Task deadline has passed and not completed.
-  - **Done**: Task has been completed.
-- **Search Tasks**: Quickly find tasks using keywords.
-- **Responsive UI**: Works on both desktop and mobile devices.
+This project demonstrates:
+- Interactive UI design  
+- DOM manipulation  
+- Event handling  
+- Real-time user feedback  
 
-## How to Use
+---
 
-1. Download or clone the repository.
-2. Open the folder.
-3. Double-click `index.html` to open the app in your web browser.
-4. Type a task in the input field and optionally set a deadline.
-5. Press **Enter** or click **Add** to add the task.
-6. Use the buttons next to each task to **edit**, **delete**, or **mark as complete**.
-7. Tasks will automatically show their **status**: Pending, Overdue, or Done.
-8. Use the **search bar** to quickly find specific tasks.
-9. Enjoy the confetti effect when you complete a task! 🎉
+## 👩‍💻 Author
 
-## Technologies Used
+**Putri Aurelia**  
+🔗 https://www.linkedin.com/in/putri-aurelia-728abb342/
 
-- **HTML5**
-- **CSS3**
-- **JavaScript (ES6)**
+---
